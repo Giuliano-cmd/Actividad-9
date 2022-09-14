@@ -1,10 +1,7 @@
-var pais = "España";
-var continente = "Europa";
-var antigüedad = "2021";
-var pais_y_continente = pais + " " + continente;
+var pais = "Argentina";
+var nombre = "Lionel Messi";
+var edad = "35";
+var jugador_y_pais = jugador + "es de " + pais + ", con una edad de ", edad;
 
-pais = "Mexico";
-continente = "Latinoamerica";
-
-console.log(pais, continente, antigüedad);
-alert(pais_y_continente)
+console.log(pais, nombre, edad);
+alert(jugador_y_pais)

@@ -1,7 +1,10 @@
-var pais = "Argentina";
-var nombre = "Lionel Messi";
-var edad = "35";
-var jugador_y_pais = jugador + "es de " + pais + ", con una edad de ", edad;
+var pais = 'Argentina';
+var jugador = 'Lionel Messi';
+var edad = '35 años';
+var jugador_caracteristicas = 'El jugador ' + jugador + ' del pais ' + pais + ' tiene ' + edad;
 
-console.log(pais, nombre, edad);
-alert(jugador_y_pais)
+pais = 'Mexico';
+continente = 'Latinoamerica';
+
+console.log(pais, jugador, edad);
+alert(jugador_caracteristicas);
